@@ -238,10 +238,10 @@
 								<input type="text" name="name" placeholder="Nombre completo*" required>
 							</p>
 							<p>
-								<input type="email" name="email" placeholder="Correo" required>
+								<input type="email" name="email" placeholder="Correo*" required>
 							</p>
 							<p>
-								<input type="tel" name="tel" placeholder="Teléfono" required>
+								<input type="tel" name="tel" placeholder="Teléfono*" required>
 							</p>
 							<p>
 								<textarea name="message" placeholder="Motivo de su consulta"></textarea>
@@ -559,9 +559,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Verificar si es la primera visita
             if (!localStorage.getItem('visited')) {
-                // Mostrar el modal
                 const swalWithBootstrapButtons = Swal.mixin({
 				customClass: {
 					confirmButton: "btn btn-success",
