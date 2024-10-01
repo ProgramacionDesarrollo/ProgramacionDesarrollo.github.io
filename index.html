@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<link rel="icon" href="images/logo.png" type="image/x-icon">
+	<link rel="icon" href="images/logo.jpeg" type="image/x-icon">
 
 	<link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
 	<link rel="stylesheet" type="text/css" href="css/vendor.css">
@@ -29,7 +29,7 @@
 	<div class="preloader"></div>
 
 	<div class="main-logo">
-		<a href="index.html"><img style="width: auto; height: auto;" src="images/logo.png" alt=""></a>
+		<a href="index.html"><img style="width: auto; height: auto;" src="images/logo.jpeg" alt=""></a>
 	</div>
 
 	<section id="intro" class="scrollspy-section mb-5">
@@ -135,7 +135,7 @@
 					<div class="services-item">
 						<span class="number">02</span>
 						<h3>Planchas de Hojalata</h3>
-						<p>Fabricamos planchas en una variedad de tamaños y grosores, adaptándonos a las necesidades específicas de cada cliente.
+						<p>Distribuimos planchas en una variedad de tamaños y grosores, adaptándonos a las necesidades específicas de cada cliente.
 						</p>
 					</div>
 
@@ -176,7 +176,7 @@
 
 				<div id="filters" class="button-group d-flex flex-wrap gap-4 py-5" data-aos="fade-up">
 					<a href="#" class="btn btn-outline-light rounded-pill text-uppercase is-checked"
-						data-filter=".design">Industrial</a>
+						data-filter=".design">Techos</a>
 					<a href="#" class="btn btn-outline-light rounded-pill text-uppercase"
 						data-filter=".interior">Ventilación</a>
 					<a href="#" class="btn btn-outline-light rounded-pill text-uppercase"
@@ -229,21 +229,21 @@
 						</div>
 
 						<p>¿Tienes alguna consulta o necesitas un presupuesto personalizado? ¡Escríbenos!</p>
-						<p>O llámanos directamente al <strong>+1 234 567 890</strong></p>
+						<p>O llámanos directamente al <strong>+56 9 8424 4308</strong></p>
 
 						<form id="form-contact" class="form-light" action="https://formspree.io/f/mblrngpy"
 						method="POST">
 							<p>
-								<input type="text" name="name" placeholder="Your Full Name*" required>
+								<input type="text" name="name" placeholder="Nombre completo*" required>
 							</p>
 							<p>
-								<input type="email" name="email" placeholder="Your Email" required>
+								<input type="email" name="email" placeholder="Correo" required>
 							</p>
 							<p>
-								<input type="tel" name="tel" placeholder="Your Telefono" required>
+								<input type="tel" name="tel" placeholder="Teléfono" required>
 							</p>
 							<p>
-								<textarea name="message" placeholder="Your Message"></textarea>
+								<textarea name="message" placeholder="Motivo de su consulta"></textarea>
 							</p>
 							<button class="btn btn-accent btn-rounded btn-xlarge btn-full mb-4">Enviar</button>
 						</form>
@@ -340,7 +340,7 @@
 				<div class="col-md-4">
 
 					<div class="footer-menu menu-item-01">
-						<img loading="lazy" src="images/favicon.png" alt="logo" class="footer-logo">
+						<img loading="lazy" src="images/favicon.jpeg" alt="logo" class="footer-logo">
 					</div>
 
 				</div>
@@ -379,7 +379,7 @@
 								<i class="icon icon-location"></i>2489 Locust Court, Los Angeles
 							</li>
 							<li class="menu-item">
-								<i class="icon icon-phone"></i>+63 667 341 3463
+								<i class="icon icon-phone"></i>+56 9 8424 4308
 							</li>
 							<li class="menu-item">
 								<i class="icon icon-envelope-o"></i><a href="#" class="mail-id">contact@example.com</a>
@@ -514,7 +514,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             const button = document.querySelector('.floating-button-container-arrow');
             const targetElement = document.getElementById('contactanos');
-
+			button.style.display = 'none';
             function checkScroll() {
                 const scrollPosition = window.scrollY;
                 const pageHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -546,8 +546,8 @@
 				});
 				swalWithBootstrapButtons.fire({
 				title: "¡Bienvenido a Hojalateria!",
-				text: "Lideres en la producción de productos de calidad, ¡Disfruta del recorrido!",
-				imageUrl: "https://unsplash.it/400/200",
+				text: "Lideres en la producción de hojalata de calidad, ¡Disfruta del recorrido!",
+				imageUrl: "images/logo.jpeg",
 				imageWidth: 400,
 				imageHeight: 200,
 				confirmButtonText: "Estupendo",
